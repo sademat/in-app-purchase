@@ -1,3 +1,9 @@
+    iOS ya da Google mobile application’lar bu API’ı kullanarak in-app-purchase satın alma
+    / doğrulama ve mevcut abonelik kontrolü yapabileceklerdir.
+    Worker tarafında ise database’de bulunan mevcut aktif aboneliklerin expire-date’leri
+    gelenleri tekrar iOS ya da Google üzerinden sorgulayıp durumlarını ve expire-date lerini
+    güncellenecektir.
+    Bu sistem birden fazla mobil uygulamaya aynı anda destek verebilir
 # API
 ## ApiController Class
 ### register(method)
