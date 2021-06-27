@@ -26,11 +26,4 @@ Route::group([
     Route::post('iosMockApi', 'App\Http\Controllers\ApiController@iosMockApi');
     Route::post('googleMockApi', 'App\Http\Controllers\ApiController@googleMockApi');
 
-
-
-
-
-
-    //Route::post('register', 'AuthController@register');
-
 });
