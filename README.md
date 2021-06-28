@@ -4,6 +4,9 @@
     gelenleri tekrar iOS ya da Google üzerinden sorgulayıp durumlarını ve expire-date lerini
     güncellenecektir.
     Bu sistem birden fazla mobil uygulamaya aynı anda destek verebilir
+## Database
+    .env dosyasında aşağıdaki güncelleme yapılmalı
+    QUEUE_CONNECTION=database
 # API
 ## ApiController Class
 ### register(method)
