@@ -1,11 +1,8 @@
-    iOS ya da Google mobile application’lar bu API’ı kullanarak in-app-purchase satın alma
-    / doğrulama ve mevcut abonelik kontrolü yapabileceklerdir.
-    Worker tarafında ise database’de bulunan mevcut aktif aboneliklerin expire-date’leri
-    gelenleri tekrar iOS ya da Google üzerinden sorgulayıp durumlarını ve expire-date lerini
-    güncellenecektir.
-    Bu sistem birden fazla mobil uygulamaya aynı anda destek verebilir
+    IOS or Google mobile applications will be able to make in-app-purchase purchase / verification and current subscription control using this API.
+    On the worker side, the expire-dates of the existing active subscriptions in the database will be queryed again via iOS or Google and their status and expire-dates     will be updated.
+    This system can support multiple mobile applications at the same time.
 ## Database
-    .env dosyasında aşağıdaki güncelleme yapılmalı
+    The following update should be done in the .env file
     QUEUE_CONNECTION=database
 # API
 ## ApiController Class
